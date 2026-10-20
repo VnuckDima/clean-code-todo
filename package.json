@@ -5,10 +5,10 @@
   "description": "https://github.com/rolling-scopes-school/tasks/blob/master/fullstack-engineering/tasks/clean-code/README.md",
   "main": "app.js",
   "scripts": {
-  "lint": "eslint .",
-  "format": "prettier --write .",
-  "prepare": "husky",
-  "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "prepare": "husky",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "lint-staged": {
     "*.js": "eslint --max-warnings 0",

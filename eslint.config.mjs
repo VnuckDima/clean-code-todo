@@ -1,18 +1,18 @@
-import js from "@eslint/js";
-import globals from "globals";
+import js from '@eslint/js';
+import globals from 'globals';
 
 export default [
   js.configs.recommended,
   {
-    files: ["**/*.js"],
+    files: ['**/*.js'],
     languageOptions: {
-      sourceType: "script",
-      globals: globals.browser
+      sourceType: 'script',
+      globals: globals.browser,
     },
     rules: {
-      "no-var": "error",
-      "prefer-const": "error",
-      "no-console": "error"
-    }
-  }
+      'no-var': 'error',
+      'prefer-const': 'error',
+      'no-console': 'error',
+    },
+  },
 ];
