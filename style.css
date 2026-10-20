@@ -34,6 +34,10 @@ body {
 .task-row-wrapper {
     display: flex;
 }
+
+#topSectionForAddingElementToList {
+    margin: 1em 0;
+}
 ul {
     margin:0;
     padding: 0px;
@@ -129,7 +133,7 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
